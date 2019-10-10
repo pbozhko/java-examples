@@ -1,9 +1,13 @@
 package com.example.model;
 
-abstract public class Device {
+import java.io.Serializable;
+
+abstract public class Device implements Serializable {
 
     private String name;
     private String description;
+
+    public Device() {}
 
     public Device(String name, String description) {
 

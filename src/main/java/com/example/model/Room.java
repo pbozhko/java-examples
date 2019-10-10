@@ -1,6 +1,7 @@
 package com.example.model;
 
 import java.util.Arrays;
+import java.util.Objects;
 
 public class Room {
 
@@ -65,20 +66,20 @@ public class Room {
             '}';
     }
 
-//    @Override
-//    public boolean equals(Object o) {
-//        if (this == o) return true;
-//        if (o == null || getClass() != o.getClass()) return false;
-//        Room room = (Room) o;
-//        return Objects.equals(name, room.name) &&
-//            Arrays.equals(devices, room.devices);
-//    }
-//
-//    @Override
-//    public int hashCode() {
-//
-//        int result = Objects.hash(name);
-//        result = 31 * result + Arrays.hashCode(devices);
-//        return result;
-//    }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Room room = (Room) o;
+        return Objects.equals(name, room.name) &&
+            Arrays.equals(devices, room.devices);
+    }
+
+    @Override
+    public int hashCode() {
+
+        int result = Objects.hash(name);
+        result = 31 * result + Arrays.hashCode(devices);
+        return result;
+    }
 }
