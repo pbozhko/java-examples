@@ -11,6 +11,8 @@
 
     <modules>
         <module>servlet-examples</module>
+        <module>jdbc-examples</module>
+        <module>hibernate-examples</module>
     </modules>
 
     <properties>
