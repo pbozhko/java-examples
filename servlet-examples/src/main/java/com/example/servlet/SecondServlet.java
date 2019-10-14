@@ -21,6 +21,7 @@ public class SecondServlet extends HttpServlet {
         HttpServletRequest request,
         HttpServletResponse response
     ) throws ServletException, IOException {
-        response.getWriter().write("Hello, World2!");
+        String arg1 = request.getParameter("arg1");
+        response.getWriter().write("Hello, World2!" + arg1);
     }
 }

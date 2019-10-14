@@ -34,7 +34,7 @@ public class Main {
 
         selectAll();
 
-//        connection.commit();
+       connection.commit();
 //        connection.rollback();
 
         statement.close();

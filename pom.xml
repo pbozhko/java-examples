@@ -13,6 +13,7 @@
         <module>servlet-examples</module>
         <module>jdbc-examples</module>
         <module>hibernate-examples</module>
+        <module>spring-ioc</module>
     </modules>
 
     <properties>
