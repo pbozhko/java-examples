@@ -14,6 +14,7 @@
         <module>jdbc-examples</module>
         <module>hibernate-examples</module>
         <module>spring-ioc</module>
+        <module>spring-mvc</module>
     </modules>
 
     <properties>
