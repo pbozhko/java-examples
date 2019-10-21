@@ -15,6 +15,7 @@
         <module>hibernate-examples</module>
         <module>spring-ioc</module>
         <module>spring-mvc</module>
+        <module>spring-boot</module>
     </modules>
 
     <properties>
